@@ -26,11 +26,13 @@ What Leaders Can Do With This
 	- Replace static reporting with interactive decision support
 
   Assets
+  
 	- Dashboard: Power BI utilization dashboard (screenshot in repo)
 	- Executive Summary: One-page overview for leadership audiences
 	- Walkthrough: Short Loom video explaining how the dashboard is used in practice
 
 [Loom Walkthrough](https://www.loom.com/share/a4d31f2b336242bd805fabe91461a93d)
+
 Executive summary PDF: Available upon request
 
 [LinkedIn](https://www.linkedin.com/in/christopher-fontes)
