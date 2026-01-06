@@ -13,6 +13,7 @@ Public health and healthcare organizations often have access to CMS data but lac
 
 The Solution
 This dashboard combines:
+
 	- Total procedure volume
 	- Utilization percentiles relative to peers
 	- Provider-level patterns
@@ -20,6 +21,7 @@ This dashboard combines:
 to support more efficient, and confident decisions around utilization management, oversight, and policy review.
 
 What Leaders Can Do With This
+
 	- Identify high-volume procedures driving system burden
 	- Surface procedures and providers operating at elevated utilization percentiles
 	- Prioritize review, audits, or programmatic interventions
