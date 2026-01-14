@@ -1,0 +1,45 @@
+##Executive Summary
+
+CMS Utilization Decision-Support Dashboard
+This dashboard uses publicly available CMS utilization data to help healthcare and public health leaders quickly identify high-volume procedures, utilization patterns, and providers operating at consistently high utilization percentiles relative to peers.
+The goal is not reporting for reporting’s sake. The goal is decision support.
+What This Dashboard Answers
+This dashboard is designed to answer three core leadership questions:
+Where is utilization concentrated?
+
+By visualizing total procedures across common CMS-covered services, leaders can immediately see which procedures drive the majority of volume and system burden.
+
+
+Which procedures and providers show unusually high utilization?
+
+- Utilization percentiles surface procedures and providers operating well above national norms, helping distinguish routine volume from potential outliers.
+
+
+Where should attention, audits, or policy review be prioritized?
+
+- By combining utilization percentiles with total procedure counts, the dashboard highlights high-impact areas where oversight, reimbursement review, or care redesign may have the greatest return.
+
+
+Key Insights Enabled
+
+- High-volume procedures can be separated from low-impact noise
+- Procedures with consistently elevated utilization percentiles become immediately visible
+- Providers with both high volume and high utilization percentile emerge as priority candidates for further review
+- Leaders can move from anecdotal concerns to data-backed prioritization
+
+
+##How Leaders Use This
+
+This dashboard is designed for:
+
+- Executive and director-level review meetings
+- Program oversight and utilization management
+- Policy evaluation and planning discussions
+- Supporting data-driven conversations with auditors, funders, or regulators
+
+
+Rather than digging through spreadsheets or static reports, leaders can interactively explore utilization patterns and focus attention where it matters most.
+
+##Why This Matters
+- Healthcare organizations often have data, but not clarity. This dashboard replaces guesswork with visibility, enabling faster, more confident decisions around utilization, risk, and resource allocation.
+
