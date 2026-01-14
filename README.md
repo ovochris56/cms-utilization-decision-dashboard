@@ -1,43 +1,76 @@
-# CMS Utilization Decision Dashboard
-CMS utilization analysis translated into a decision-support dashboard for healthcare and public health leaders.
+# CMS Utilization Decision-Support Dashboard
 
-CMS Utilization Decision-Support Dashboard
+Decision-ready utilization analytics built from publicly available CMS data to help healthcare and public health leaders prioritize follow-up, oversight, and utilization review.
 
-Overview
-This project demonstrates how publicly available CMS utilization data can be transformed into a decision-ready dashboard for healthcare and public health leadership.
+---
 
-The focus is not technical novelty, but clarity: helping leaders quickly understand where utilization is concentrated, where it is unusually high, and where attention may be prioritized.
+## What this is
+This project transforms CMS utilization data into an executive-facing Power BI dashboard designed for **fast interpretation and action**.
 
-The Problem
-Public health and healthcare organizations often have access to CMS data but lack clear, actionable visibility. Data is fragmented across spreadsheets and static reports, making it difficult to identify high-impact utilization patterns or communicate insights to leadership.
+The goal is not technical novelty. The goal is clarity:
+- Where utilization is concentrated
+- Where utilization is unusually high relative to peers
+- Which procedures/providers merit deeper follow-up review
 
-The Solution
-This dashboard combines:
+---
 
-	- Total procedure volume
-	- Utilization percentiles relative to peers
-	- Provider-level patterns
+## What decisions this enables
+Leaders can use this dashboard to:
+- Identify high-volume procedures driving operational burden
+- Surface provider-level outliers without assuming intent or wrongdoing
+- Prioritize areas for review, audit, education, or policy attention
+- Replace static reporting with interactive decision support
+- Establish a baseline before deeper clinical, coding, or claims analysis
 
-to support more efficient, and confident decisions around utilization management, oversight, and policy review.
+---
 
-What Leaders Can Do With This
+## Data source
+[**Publicly available CMS utilization data**](https://data.cms.gov/provider-data/dataset/n0yb-util#data-table) (aggregated, non-identifiable).
 
-	- Identify high-volume procedures driving system burden
-	- Surface procedures and providers operating at elevated utilization percentiles
-	- Prioritize review, audits, or programmatic interventions
-	- Replace static reporting with interactive decision support
+This project uses **non-identifiable, aggregated** data for demonstration and decision-support purposes.
 
-  Assets
-  
-	- Dashboard: Power BI utilization dashboard (screenshot in repo)
-	- Executive Summary: One-page overview for leadership audiences
-	- Walkthrough: Short Loom video explaining how the dashboard is used in practice
+---
 
-Executive summary PDF: Available upon request
+## Dashboard contents
+### Key metrics (examples)
+- Total procedures
+- Total providers (NPI-based where applicable)
+- Procedure-level concentration
+- Utilization percentile indicators (peer-relative positioning)
+- High-utilization thresholds and outlier flags
 
-[LinkedIn](https://www.linkedin.com/in/christopher-fontes)
+### Pages (recommended structure)
+- **Executive Summary**: KPIs + top signals + fastest “what changed / where to look”
+- **Procedure View**: volume leaders + concentration
+- **Provider View**: outliers + percentile distribution
+- **Drilldowns**: specialty/location/time (if included)
 
-Data
-Source: Publicly available CMS utilization data
+---
 
-This project uses aggregated, non-identifiable data for demonstration purposes.
+## Method (high level)
+- **Data preparation:** cleaning, standardization, and KPI setup
+- **Modeling:** structured tables to support filtering and drill-down
+- **Measures:** KPI definitions focused on leadership interpretation
+- **Visualization:** executive-friendly layout for prioritization and follow-up discussion
+
+---
+
+## Deliverables
+- **Power BI Dashboard:** screenshots 
+- **Executive Summary (PDF):** 
+
+---
+
+## Limitations & responsible use
+This dashboard is designed for **pattern detection and prioritization**, not conclusions.
+- Utilization patterns **do not imply causality** or clinical appropriateness
+- Outliers **do not imply fraud** or wrongdoing
+- CMS data may include coding differences, coverage effects, and reporting limitations
+- Results should be interpreted as a starting point for deeper review
+
+---
+
+## Contact
+Christopher Fontes  
+- [LinkedIn](https://www.linkedin.com/in/christopher-fontes/)
+- [GitHub](https://github.com/ovochris56)
