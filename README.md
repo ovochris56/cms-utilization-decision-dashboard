@@ -39,12 +39,6 @@ This project uses **non-identifiable, aggregated** data for demonstration and de
 - Utilization percentile indicators (peer-relative positioning)
 - High-utilization thresholds and outlier flags
 
-### Pages (recommended structure)
-- **Executive Summary**: KPIs + top signals + fastest “what changed / where to look”
-- **Procedure View**: volume leaders + concentration
-- **Provider View**: outliers + percentile distribution
-- **Drilldowns**: specialty/location/time (if included)
-
 ---
 
 ## Method (high level)
@@ -56,9 +50,17 @@ This project uses **non-identifiable, aggregated** data for demonstration and de
 ---
 
 ## Deliverables
-- **Power BI Dashboard:** screenshots 
+- **Power BI Dashboard:** screenshots
+- **SQL Snippet**
 - **Executive Summary (PDF):** 
 
+SQL Server was used to derive provider-level percentile rankings, utilization categories, and KPI summary views that supported dashboard metrics and outlier identification.
+
+Example logic included:
+- Provider percentile ranking using window functions
+- Utilization category classification using CASE logic
+- KPI aggregation views for executive reporting
+- 
 ---
 
 ## Limitations & responsible use
